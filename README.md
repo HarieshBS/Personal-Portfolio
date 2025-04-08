@@ -4,12 +4,12 @@ This is a personal portfolio website for Hariesh Kasaveraj, showcasing his skill
 
 ## Table of Contents
 - Demo
-- [Features](#featuresgies Used](#technologies-usedsagexplanation
+- [Features](#featuresgies Used](#technologies-usedsagexplanation)
 - [Effectveness
 - Contact
 
 ## Demo
-You can view the live demo of the portfolio [here]([https://res](https://dashing-boba-7a4df2.netlify.app/)
+You can view the live demo of the portfolio [here](https://my-Portfolio)(https://dashing-boba-7a4df2.netlify.app/)
 - Responsive design
 - Dark/light theme toggle
 - Smooth scrolling
@@ -24,9 +24,3 @@ You can view the live demo of the portfolio [here]([https://res](https://dashing
 - JavaScript
 - Google Fonts
 - Font Awesome
-
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/portfolio.git](https://github.com/HarieshBS/Personal-Portfolio)
-   ```
