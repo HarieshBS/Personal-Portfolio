@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hariesh Kasaveraj | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Designer.jpeg" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="toggle-btn" id="themeToggle">Toggle Theme</button></li>
+                    <i class="fas fa-times" id="closeMenu"></i>
+                </ul>
+                <i class="fas fa-bars" id="openMenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>2nd Year BTech Student</p>
+                <h1>Hi, I'm <span>Hariesh</span><br>Hariesh Kasaveraj</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-me.jpg" alt="Hariesh Kasaveraj">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Hariesh Kasaveraj, and I am currently a second-year student at Vellore Institute of Technology. I have a strong passion for coding and have developed intermediate-level skills in C, Java, Python, and C++. In addition to my academic pursuits, I enjoy playing badminton and reading in my free time.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" data-tab="skills">Skills</p>
+                        <p class="tab-links" data-tab="experience">Experience</p>
+                        <p class="tab-links" data-tab="education">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C Program</span><br>Proficient in C Syntax and Semantics, Data Structures, Algorithms, Memory Management, File Handling</li>
+                            <li><span>Java</span><br>Object-Oriented Programming, Data Structures, Algorithms, Exception Handling, File I/O</li>
+                            <li><span>Python</span><br>OOP, Data Structures, Algorithms, Exception Handling, File I/O, Multithreading, Libraries</li>
+                            <li><span>C++</span><br>Basics, OOP concepts, Data structures, File handling, STL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Developed a library management system to manage book records efficiently.</li>
+                            <li><span>2024</span><br>Created a simple banking application to handle customer transactions and account management.</li>
+                            <li><span>2023 - 2024</span><br>Built a web scraper to collect data from various websites for analysis.</li>
+                            <li><span>2023</span><br>Designed a basic game using object-oriented programming principles.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027</span><br>B Tech from Vellore Institute of Technology. Computer Science with Artificial Intelligence and Machine Learning</li>
+                            <li><span>2027</span><br>B Sc from IIT Madras (Online). Data Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <p class="services-subtitle">I offer a variety of services to help you achieve your goals.</p>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>C Programming</h2>
+                    <p>Developed a library management system to manage book records efficiently.</p>
+                    <a href="https://github.com/HarieshBS/Library-Management-System/" class="learn-more">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Java</h2>
+                    <p>Created a simple banking application to handle customer transactions and account management.</p>
+                    <a href="https://github.com/HarieshBS/Banking-System-Application" class="learn-more">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Built a web scraper to collect data from various websites for analysis.</p>
+                    <a href="https://github.com/HarieshBS/web-scraping-with-python" class="learn-more">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-cuttlefish"></i>
+                    <h2>C++</h2>
+                    <p>A simple game demonstrating object-oriented programming concepts.</p>
+                    <a href="https://github.com/HarieshBS/Snake-with-C-/tree/main" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-4.png" alt="Library Management System">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>Done using C program.</p>
+                        <a href="#services"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Banking App">
+                    <div class="layer">
+                        <h3>Banking App</h3>
+                        <p>A Java application for banking transactions.</p>
+                        <a href="#services"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Web Scraper">
+                    <div class="layer">
+                        <h3>Web Scraper</h3>
+                        <p>Python-based web scraping tool.</p>
+                        <a href="#services"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="Snake Game">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>Done using C++ program.</p>
+                        <a href="#services"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#services" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> harieshkasaveraj@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 8903487371</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/HarieshBS" class="btn-github" target="_blank" name="Github" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://facebook.com" class="btn-facebook" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/youravgcamelcaser/" class="btn-instagram" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hariesh-kasaveraj-7880a8330/" class="btn-linkedin" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    <button type="submit" class="btn btn2"  onclick="openForm()">Open Form</button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" id="contactForm">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Hariesh. </i> <a href="#"> for more click here.</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Theme toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            const openMenu = document.getElementById('openMenu');
+            const closeMenu = document.getElementById('closeMenu');
+            const sidemenu = document.getElementById('sidemenu');
+            const tabLinks = document.querySelectorAll('.tab-links');
+            
+            // Check for saved theme
+            if(localStorage.getItem('theme') === 'light') {
+                document.body.classList.add('light-mode');
+            }
+            
+            // Theme toggle
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('light-mode');
+                localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+            });
+            
+            // Mobile menu
+            openMenu.addEventListener('click', function() {
+                sidemenu.style.right = '0';
+            });
+            
+            closeMenu.addEventListener('click', function() {
+                sidemenu.style.right = '-200px';
+            });
+            
+            // Tab functionality
+            tabLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    const tabName = this.getAttribute('data-tab');
+                    
+                    // Remove active classes
+                    tabLinks.forEach(l => l.classList.remove('active-link'));
+                    document.querySelectorAll('.tab-contents').forEach(t => t.classList.remove('active-tab'));
+                    
+                    // Add active class to current tab
+                    this.classList.add('active-link');
+                    document.getElementById(tabName).classList.add('active-tab');
+                });
+            });
+            
+            // Progress bar
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.scrollY;
+                const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const progress = (scrollTop / scrollHeight) * 100;
+                document.getElementById('progressBar').style.width = `${progress}%`;
+            });
+            
+            // Form submission
+            const form = document.getElementById('contactForm');
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbz5uKohVdrq72VYvRAjvYbQmbXkEY7Zbl1gKyPb4VOaFPOvshkGzDyIHPdyoc8FBYTRMQ/exec';
+                const msg = document.getElementById('msg');
+                
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully";
+                        setTimeout(function(){
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+        });
+
+
+    </script>
+    
+
+<script>
+function openForm() {
+    window.open("https://forms.office.com/Pages/ResponsePage.aspx?id=4jyW1JSvIkGVqWROiwFiTbaUrS1JCKdNuFXmJgVVDbxUNkVPWVRCNlROQlNPTjIyRVo4Ukg5NUQ3Ni4u", "FormWindow", "width=800,height=600");
+}
+</script>
+
+</body>
+</html>
