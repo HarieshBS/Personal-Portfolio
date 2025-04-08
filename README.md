@@ -9,7 +9,7 @@ This is a personal portfolio website for Hariesh Kasaveraj, showcasing his skill
 - Contact
 
 ## Demo
-You can view the live demo of the portfolio [here](https://my-Portfolio)(https://dashing-boba-7a4df2.netlify.app/)
+You can view the live demo of the portfolio [here](https://dashing-boba-7a4df2.netlify.app/)
 - Responsive design
 - Dark/light theme toggle
 - Smooth scrolling
